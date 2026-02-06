@@ -14,7 +14,7 @@ backend/
 │   ├── listeners.ts   # Blockchain event listeners (WebSocket/Polling)
 │   └── index.ts       # Express REST API entry point
 ├── scripts/           # Utility scripts (seeding, cleanup)
-├── sqlite.db          # SQLite database file
+├── sqlite.db          # Sample SQLite database file
 ├── package.json
 ├── tsconfig.json
 └── README.md
@@ -138,6 +138,7 @@ npx drizzle-kit push:sqlite
 
 ```bash
 # Run development server with hot reload
+npm run install
 npm run dev
 
 # Server runs on http://localhost:4000
@@ -172,4 +173,4 @@ MIT License - see [LICENSE](./LICENSE) file for details
 
 ---
 
-**Last Updated:** January 30, 2026
+**Last Updated:** Feb 6, 2026

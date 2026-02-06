@@ -52,7 +52,7 @@ npx hardhat test
 ### Deploy
 
 ```bash
-# Deploy to local network
+# Deploy to local network (This will need some faceut ETH or real ETH in your wallet)
 npx hardhat run scripts/deploy.js
 
 # Deploy to Sepolia testnet

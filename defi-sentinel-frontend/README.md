@@ -142,11 +142,8 @@ The app properly disconnects all connected wallets and clears storage on logout.
 The frontend connects to the backend API at `api.defisentinel.org`, modify the constants.ts if you deployed your own backend:
 
 ```typescript
-// lib/api.ts
-export async function fetchMembership(wallet: string) {
-  const res = await fetch(`${API_URL}/api/membership/${wallet}`);
-  return res.json();
-}
+export const API_BASE_URL = 'https://api.defisentinel.org'; // this use a real backend deployed on a vps
+//export const API_BASE_URL = 'http://localhost:4000'; // this use your local backend
 ```
 
 ## License
@@ -155,4 +152,4 @@ MIT
 
 ---
 
-**Last Updated:** December 30, 2024
+**Last Updated:** Feb 6, 2026
