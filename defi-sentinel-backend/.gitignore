@@ -15,7 +15,6 @@ build/
 .env.development
 
 # Database files (contain user data)
-*.db
 *.db-shm
 *.db-wal
 *.sqlite
