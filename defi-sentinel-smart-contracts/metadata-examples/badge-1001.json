@@ -1,0 +1,21 @@
+{
+  "name": "Early Adopter",
+  "description": "Joined DeFi Sentinel within the first 1000 members",
+  "image": "https://defisentinel.com/images/badges/early-adopter.png",
+  "external_url": "https://defisentinel.com/badges/1001",
+  "attributes": [
+    {
+      "trait_type": "Type",
+      "value": "Achievement"
+    },
+    {
+      "trait_type": "Rarity",
+      "value": "Limited Edition"
+    },
+    {
+      "trait_type": "Category",
+      "value": "Early Access"
+    }
+  ]
+}
+

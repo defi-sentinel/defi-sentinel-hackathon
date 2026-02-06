@@ -1,0 +1,170 @@
+[
+  {
+    "type": "function",
+    "name": "mintBadge",
+    "inputs": [
+      { "name": "badgeId", "type": "uint256" }
+    ],
+    "outputs": [],
+    "stateMutability": "payable"
+  },
+  {
+    "type": "function",
+    "name": "mintMembershipBadge",
+    "inputs": [
+      { "name": "user", "type": "address" },
+      { "name": "badgeId", "type": "uint256" }
+    ],
+    "outputs": [],
+    "stateMutability": "nonpayable"
+  },
+  {
+    "type": "function",
+    "name": "setBadgePrice",
+    "inputs": [
+      { "name": "badgeId", "type": "uint256" },
+      { "name": "priceWei", "type": "uint256" }
+    ],
+    "outputs": [],
+    "stateMutability": "nonpayable"
+  },
+  {
+    "type": "function",
+    "name": "hasBadge",
+    "inputs": [
+      { "name": "user", "type": "address" },
+      { "name": "badgeId", "type": "uint256" }
+    ],
+    "outputs": [
+      { "type": "bool" }
+    ],
+    "stateMutability": "view"
+  },
+  {
+    "type": "function",
+    "name": "badgePrice",
+    "inputs": [
+      { "name": "badgeId", "type": "uint256" }
+    ],
+    "outputs": [
+      { "type": "uint256" }
+    ],
+    "stateMutability": "view"
+  },
+  {
+    "type": "function",
+    "name": "earlyAdopterCount",
+    "inputs": [],
+    "outputs": [
+      { "type": "uint256" }
+    ],
+    "stateMutability": "view"
+  },
+  {
+    "type": "function",
+    "name": "EARLY_ADOPTER_CAP",
+    "inputs": [],
+    "outputs": [
+      { "type": "uint256" }
+    ],
+    "stateMutability": "view"
+  },
+  {
+    "type": "function",
+    "name": "setPaymentContract",
+    "inputs": [
+      { "name": "_paymentContract", "type": "address" }
+    ],
+    "outputs": [],
+    "stateMutability": "nonpayable"
+  },
+  {
+    "type": "function",
+    "name": "withdraw",
+    "inputs": [],
+    "outputs": [],
+    "stateMutability": "nonpayable"
+  },
+  {
+    "type": "event",
+    "name": "BadgeMinted",
+    "inputs": [
+      { "name": "user", "type": "address", "indexed": true },
+      { "name": "badgeId", "type": "uint256", "indexed": true }
+    ]
+  },
+  {
+    "type": "event",
+    "name": "BadgePriceSet",
+    "inputs": [
+      { "name": "badgeId", "type": "uint256", "indexed": true },
+      { "name": "price", "type": "uint256" }
+    ]
+  },
+  {
+    "type": "function",
+    "name": "setBaseURI",
+    "inputs": [
+      { "name": "baseURI_", "type": "string" }
+    ],
+    "outputs": [],
+    "stateMutability": "nonpayable"
+  },
+  {
+    "type": "function",
+    "name": "setTokenURI",
+    "inputs": [
+      { "name": "badgeId", "type": "uint256" },
+      { "name": "tokenURI_", "type": "string" }
+    ],
+    "outputs": [],
+    "stateMutability": "nonpayable"
+  },
+  {
+    "type": "function",
+    "name": "uri",
+    "inputs": [
+      { "name": "badgeId", "type": "uint256" }
+    ],
+    "outputs": [
+      { "type": "string" }
+    ],
+    "stateMutability": "view"
+  },
+  {
+    "type": "function",
+    "name": "baseURI",
+    "inputs": [],
+    "outputs": [
+      { "type": "string" }
+    ],
+    "stateMutability": "view"
+  },
+  {
+    "type": "function",
+    "name": "tokenURI",
+    "inputs": [
+      { "name": "badgeId", "type": "uint256" }
+    ],
+    "outputs": [
+      { "type": "string" }
+    ],
+    "stateMutability": "view"
+  },
+  {
+    "type": "event",
+    "name": "BaseURISet",
+    "inputs": [
+      { "name": "baseURI", "type": "string" }
+    ]
+  },
+  {
+    "type": "event",
+    "name": "TokenURISet",
+    "inputs": [
+      { "name": "badgeId", "type": "uint256", "indexed": true },
+      { "name": "tokenURI", "type": "string" }
+    ]
+  }
+]
+

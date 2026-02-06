@@ -1,0 +1,175 @@
+[
+  {
+    "type": "function",
+    "name": "payMembership",
+    "inputs": [
+      { "name": "months", "type": "uint256" }
+    ],
+    "outputs": [],
+    "stateMutability": "nonpayable"
+  },
+  {
+    "type": "function",
+    "name": "withdrawUSDC",
+    "inputs": [
+      { "name": "to", "type": "address" }
+    ],
+    "outputs": [],
+    "stateMutability": "nonpayable"
+  },
+  {
+    "type": "function",
+    "name": "setMonthlyFee",
+    "inputs": [
+      { "name": "fee", "type": "uint256" }
+    ],
+    "outputs": [],
+    "stateMutability": "nonpayable"
+  },
+  {
+    "type": "function",
+    "name": "setYearlyFee",
+    "inputs": [
+      { "name": "fee", "type": "uint256" }
+    ],
+    "outputs": [],
+    "stateMutability": "nonpayable"
+  },
+  {
+    "type": "function",
+    "name": "monthlyFee",
+    "inputs": [],
+    "outputs": [
+      { "type": "uint256" }
+    ],
+    "stateMutability": "view"
+  },
+  {
+    "type": "function",
+    "name": "yearlyFee",
+    "inputs": [],
+    "outputs": [
+      { "type": "uint256" }
+    ],
+    "stateMutability": "view"
+  },
+  {
+    "type": "function",
+    "name": "totalFeesCollected",
+    "inputs": [],
+    "outputs": [
+      { "type": "uint256" }
+    ],
+    "stateMutability": "view"
+  },
+  {
+    "type": "function",
+    "name": "totalMembers",
+    "inputs": [],
+    "outputs": [
+      { "type": "uint256" }
+    ],
+    "stateMutability": "view"
+  },
+  {
+    "type": "function",
+    "name": "getTotalMembers",
+    "inputs": [],
+    "outputs": [
+      { "type": "uint256" }
+    ],
+    "stateMutability": "view"
+  },
+  {
+    "type": "function",
+    "name": "getTotalFeesCollected",
+    "inputs": [],
+    "outputs": [
+      { "type": "uint256" }
+    ],
+    "stateMutability": "view"
+  },
+  {
+    "type": "function",
+    "name": "calculateCost",
+    "inputs": [
+      { "name": "months", "type": "uint256" }
+    ],
+    "outputs": [
+      { "type": "uint256" }
+    ],
+    "stateMutability": "view"
+  },
+  {
+    "type": "function",
+    "name": "checkAllowance",
+    "inputs": [
+      { "name": "user", "type": "address" },
+      { "name": "months", "type": "uint256" }
+    ],
+    "outputs": [
+      { "name": "hasAllowance", "type": "bool" },
+      { "name": "requiredAmount", "type": "uint256" },
+      { "name": "currentAllowance", "type": "uint256" }
+    ],
+    "stateMutability": "view"
+  },
+  {
+    "type": "function",
+    "name": "usdcToken",
+    "inputs": [],
+    "outputs": [
+      { "type": "address" }
+    ],
+    "stateMutability": "view"
+  },
+  {
+    "type": "function",
+    "name": "badgeNFT",
+    "inputs": [],
+    "outputs": [
+      { "type": "address" }
+    ],
+    "stateMutability": "view"
+  },
+  {
+    "type": "event",
+    "name": "MembershipPaid",
+    "inputs": [
+      { "name": "user", "type": "address", "indexed": true },
+      { "name": "months", "type": "uint256" },
+      { "name": "amount", "type": "uint256" },
+      { "name": "yearCount", "type": "uint256" },
+      { "name": "monthCount", "type": "uint256" }
+    ]
+  },
+  {
+    "type": "event",
+    "name": "FeesWithdrawn",
+    "inputs": [
+      { "name": "to", "type": "address", "indexed": true },
+      { "name": "amount", "type": "uint256" }
+    ]
+  },
+  {
+    "type": "event",
+    "name": "FeesUpdated",
+    "inputs": [
+      { "name": "monthlyFee", "type": "uint256" },
+      { "name": "yearlyFee", "type": "uint256" }
+    ]
+  },
+  {
+    "type": "function",
+    "name": "payMembershipWithPermit",
+    "inputs": [
+      { "name": "months", "type": "uint256" },
+      { "name": "deadline", "type": "uint256" },
+      { "name": "v", "type": "uint8" },
+      { "name": "r", "type": "bytes32" },
+      { "name": "s", "type": "bytes32" }
+    ],
+    "outputs": [],
+    "stateMutability": "nonpayable"
+  }
+]

@@ -1,0 +1,21 @@
+{
+  "name": "DeFi Novice",
+  "description": "Successfully completed the DeFi Introduction Quiz",
+  "image": "https://defisentinel.com/images/badges/defi-novice.png",
+  "external_url": "https://defisentinel.com/badges/2001",
+  "attributes": [
+    {
+      "trait_type": "Type",
+      "value": "Quiz Badge"
+    },
+    {
+      "trait_type": "Difficulty",
+      "value": "Beginner"
+    },
+    {
+      "trait_type": "Category",
+      "value": "Education"
+    }
+  ]
+}
+

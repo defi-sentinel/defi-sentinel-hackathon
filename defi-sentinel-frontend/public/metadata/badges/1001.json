@@ -1,0 +1,15 @@
+{
+  "name": "Early Adopter",
+  "description": "Joined within the first 1000 members of DeFi Sentinel.",
+  "image": "https://defisentinel.org/images/badges/1001_early_adopter.jpg",
+  "attributes": [
+    {
+      "trait_type": "Type",
+      "value": "Membership"
+    },
+    {
+      "trait_type": "Rarity",
+      "value": "Limited"
+    }
+  ]
+}

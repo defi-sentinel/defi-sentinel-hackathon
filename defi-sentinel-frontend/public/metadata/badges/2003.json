@@ -1,0 +1,15 @@
+{
+  "name": "DeFi Master",
+  "description": "Passed the advanced DeFi quiz.",
+  "image": "https://defisentinel.org/images/badges/2003_defi_master.jpg",
+  "attributes": [
+    {
+      "trait_type": "Type",
+      "value": "Achievement"
+    },
+    {
+      "trait_type": "Level",
+      "value": "Master"
+    }
+  ]
+}

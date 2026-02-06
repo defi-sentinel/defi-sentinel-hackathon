@@ -1,0 +1,4 @@
+# The lines below will be automatically updated every time you run the deploy script
+BadgeNFT = 0xA1F0019EE670Aa204f56B7D142AC43C64E998cD9
+PaymentContract = 0x7FDeF9316dBF206f57Aab2eAaE12fC7ee63953A9
+USDC = 0xd14e84292Cf96E96000263Ab049A51d4dA48e5b1

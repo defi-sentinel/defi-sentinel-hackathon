@@ -1,0 +1,15 @@
+{
+  "name": "Pro Member",
+  "description": "Active Pro Membership holder.",
+  "image": "https://defisentinel.org/images/badges/3001_pro_member.jpg",
+  "attributes": [
+    {
+      "trait_type": "Type",
+      "value": "Membership"
+    },
+    {
+      "trait_type": "Tier",
+      "value": "Pro"
+    }
+  ]
+}

@@ -1,0 +1,15 @@
+{
+  "name": "Sentinel Elite",
+  "description": "Active Sentinel Elite Membership holder.",
+  "image": "https://defisentinel.org/images/badges/3002_sentinel_elite.jpg",
+  "attributes": [
+    {
+      "trait_type": "Type",
+      "value": "Membership"
+    },
+    {
+      "trait_type": "Tier",
+      "value": "Elite"
+    }
+  ]
+}

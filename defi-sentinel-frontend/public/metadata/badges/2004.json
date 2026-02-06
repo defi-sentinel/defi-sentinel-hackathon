@@ -1,0 +1,15 @@
+{
+  "name": "Risk Guardian",
+  "description": "Passed the DeFi risk assessment.",
+  "image": "https://defisentinel.org/images/badges/2004_risk_guardian.jpg",
+  "attributes": [
+    {
+      "trait_type": "Type",
+      "value": "Achievement"
+    },
+    {
+      "trait_type": "Category",
+      "value": "Risk Management"
+    }
+  ]
+}

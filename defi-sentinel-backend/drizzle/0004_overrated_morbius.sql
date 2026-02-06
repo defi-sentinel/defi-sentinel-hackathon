@@ -1,0 +1,1 @@
+ALTER TABLE `users` ADD `game_progress` text;

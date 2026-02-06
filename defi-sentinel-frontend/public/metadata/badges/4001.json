@@ -1,0 +1,15 @@
+{
+  "name": "Scholar",
+  "description": "Read 10 research articles.",
+  "image": "https://defisentinel.org/images/badges/4001_scholar.jpg",
+  "attributes": [
+    {
+      "trait_type": "Type",
+      "value": "Achievement"
+    },
+    {
+      "trait_type": "Activity",
+      "value": "Education"
+    }
+  ]
+}

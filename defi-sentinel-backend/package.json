@@ -1,0 +1,49 @@
+{
+  "name": "defi-sentinel-backend",
+  "version": "1.0.0",
+  "description": "Backend services for DeFi Sentinel - Rating engine and API integrations",
+  "main": "src/index.ts",
+  "scripts": {
+    "dev": "tsx watch src/index.ts",
+    "build": "tsc",
+    "start": "node dist/index.js",
+    "test": "node tests/test_api.js",
+    "test:yields": "node tests/test_yields.js",
+    "seed:strategies": "tsx scripts/seed-strategies.ts",
+    "sync:init": "tsx scripts/init-protocol-data.ts",
+    "sync:daily": "tsx scripts/daily-sync.ts",
+    "scan:secrets": "node scripts/scan-secrets.js",
+    "presecurity": "npm run scan:secrets",
+    "security": "npm audit"
+  },
+  "keywords": [
+    "defi",
+    "blockchain",
+    "rating",
+    "api"
+  ],
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "@types/uuid": "^10.0.0",
+    "better-sqlite3": "^12.5.0",
+    "compression": "^1.8.1",
+    "cors": "^2.8.5",
+    "dotenv": "^17.2.3",
+    "drizzle-orm": "^0.45.1",
+    "express": "^4.18.2",
+    "jsonwebtoken": "^9.0.3",
+    "uuid": "^13.0.0",
+    "viem": "^2.43.3"
+  },
+  "devDependencies": {
+    "@types/better-sqlite3": "^7.6.13",
+    "@types/cors": "^2.8.17",
+    "@types/express": "^4.17.21",
+    "@types/jsonwebtoken": "^9.0.10",
+    "@types/node": "^20.10.0",
+    "drizzle-kit": "^0.31.8",
+    "tsx": "^4.7.0",
+    "typescript": "^5.3.3"
+  }
+}

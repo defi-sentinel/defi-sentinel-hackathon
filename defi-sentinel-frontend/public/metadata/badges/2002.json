@@ -1,0 +1,15 @@
+{
+  "name": "DeFi Intermediate",
+  "description": "Passed the intermediate DeFi quiz.",
+  "image": "https://defisentinel.org/images/badges/2002_defi_intermediate.jpg",
+  "attributes": [
+    {
+      "trait_type": "Type",
+      "value": "Achievement"
+    },
+    {
+      "trait_type": "Level",
+      "value": "Intermediate"
+    }
+  ]
+}

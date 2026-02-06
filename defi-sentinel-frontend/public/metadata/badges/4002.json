@@ -1,0 +1,15 @@
+{
+  "name": "Explorer",
+  "description": "Explored 10 different strategies.",
+  "image": "https://defisentinel.org/images/badges/4002_explorer.jpg",
+  "attributes": [
+    {
+      "trait_type": "Type",
+      "value": "Achievement"
+    },
+    {
+      "trait_type": "Activity",
+      "value": "Exploration"
+    }
+  ]
+}

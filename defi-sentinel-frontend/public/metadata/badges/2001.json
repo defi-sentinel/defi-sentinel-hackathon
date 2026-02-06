@@ -1,0 +1,15 @@
+{
+  "name": "DeFi Novice",
+  "description": "Passed the DeFi introduction quiz.",
+  "image": "https://defisentinel.org/images/badges/2001_defi_novice.jpg",
+  "attributes": [
+    {
+      "trait_type": "Type",
+      "value": "Achievement"
+    },
+    {
+      "trait_type": "Level",
+      "value": "Novice"
+    }
+  ]
+}
